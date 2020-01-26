@@ -1,5 +1,5 @@
 :root {
-  --color-primary: goldenrod;
+  --color-primary: orange;
   --color-primary-light: gold;
   --color-secondary: lightcoral;
   --color-accent: greenyellow;
@@ -7,7 +7,7 @@
   --color-whatever: peachpuff;
 
   --font-primary: "Roboto", sans-serif;
-  --font-secondary: "Work Sans", monospace;
+  --font-secondary: "Work Sans", sans-serif;
 }
 
 html {

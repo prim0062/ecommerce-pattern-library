@@ -2,4 +2,18 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Buckets"
+  description: |
+    An eCommerce website that specializes in hats and headwear.
   font_url: "https://fonts.googleapis.com/css?family=Roboto:300,400,500|Work+Sans:400,700,900"
+  colors:
+    accent: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Roboto was selected because of it simplicity, and readability. Roboto is to be used for all body copy.
+    typefaces.secondary: |
+      Work Sans is to be used for headings, banners, and highlights.
+    colors.primary: |
+      The primary colours represent calm and relaxation, a stress free environment.
+    colors.secondary: |
+      The secondary colours represent a call to action

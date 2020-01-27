@@ -1,10 +1,8 @@
 :root {
-  --color-primary: orange;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #1f6777;
+  --color-primary-light: #2ba5af;
+  --color-secondary: #ffc952;
+  --color-neutral-grey: #d4dde1;
 
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Work Sans", sans-serif;

@@ -1,8 +1,10 @@
 :root {
   --color-primary: #1f6777;
   --color-primary-light: #2ba5af;
-  --color-secondary: #ffc952;
+  --color-secondary: #ffc600;
+  --color-secondary-light: #ffd34b;
   --color-neutral-grey: #d4dde1;
+  --color-neutral-grey-dark: #7c8a90;
 
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Work Sans", sans-serif;

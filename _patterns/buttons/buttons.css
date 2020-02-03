@@ -31,11 +31,14 @@
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: white;
+  border-radius: 2px;
+  transition: border-radius .1s ease-in-out, background-color, .1s linear;
 }
 
 .btn-light:hover {
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
+  border-radius: 8px;
 }
 
 .btn-option {

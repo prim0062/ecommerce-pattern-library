@@ -1,3 +1,37 @@
 .card {
+  max-width: 20em;
+  margin: 1em .5em;
+}
+
+.img-flex {
   border: 2px solid black;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.title {
+  color: #000;
+}
+
+.price {
+  color: var(--color-neutral-grey-dark);
+}
+
+.featured-card {
+  max-width: 20em;
+  margin: 1em .5em;
+}
+
+.featured-card:hover {
+  border: 2px solid black;
+  max-width: 20em;
+}
+
+.featured-text {
+  color: var(--color-neutral-grey-dark);
+  position: relative;
+  top: -40px;
+  right: 15px;
 }

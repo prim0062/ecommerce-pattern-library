@@ -3,12 +3,17 @@
   margin: 1em .5em;
 }
 
-.img-flex {
-  border: 2px solid black;
-}
-
 .link-card {
   text-decoration: none;
+}
+
+.featured-text {
+  color: var(--color-neutral-grey-dark);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  white-space: nowrap;
 }
 
 .title {
@@ -20,18 +25,20 @@
 }
 
 .featured-card {
-  max-width: 20em;
+  border: 2px solid black;
+  max-width: 462px;
   margin: 1em .5em;
 }
 
 .featured-card:hover {
-  border: 2px solid black;
-  max-width: 20em;
+  max-width: 462px;
 }
 
-.featured-text {
-  color: var(--color-neutral-grey-dark);
-  position: relative;
-  top: -40px;
-  right: 15px;
+.category-card-1 {
+  border: 2px solid black;
+  width: 264px;
+  height: 264px;
+  margin: 1em .5em;
+  background-image: url("../images/hat.png");
+  background-size: contain;
 }

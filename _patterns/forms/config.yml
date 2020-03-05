@@ -1,0 +1,73 @@
+title: "Form Fields"
+description: |
+  Form fields that the user will fill out to provide information.
+
+patterns:
+  email-field:
+    title: "Email Field"
+    description: |
+      This field is to be used to gather a user's properly formatted email address.
+  firstname-field:
+    title: "First name Field"
+    description: |
+      This field is to be used to gather the user's first name.
+  lastname-field:
+    title: "Last name Field"
+    description: |
+      This field is to be used to gather the user's last name.
+  address-field:
+    title: "Address Field"
+    description: |
+      This field is to be used to gather the user's street address for shipping.
+  address-field-extra:
+    title: "Address Field Extras"
+    description: |
+      This field is to be used to gather additional address information if needed.
+  city-field:
+    title: "City Field"
+    description: |
+      This field is to be used to gather the user's city for shipping.
+  phone-field:
+    title: "Phone Field"
+    description: |
+      This field is to be used to gather the user's phone number.
+  postal-field:
+    title: "Postal Field"
+    description: |
+      This field is to be used to gather the user's postal code for shipping.
+  card-holder-field:
+    title: "Card Holder Field"
+    description: |
+      This field is to be used to gather the card holder's name for payment.
+  card-number-field:
+    title: "Card Number Field"
+    description: |
+      This field is to be used to gather the user's card number name for payment.
+  card-exp-month-field:
+    title: "Card Expiry Month Field"
+    description: |
+      This field is to be used to gather the card's expiry month for payment.
+  card-exp-year-field:
+    title: "Card Expiry Year Field"
+    description: |
+      This field is to be used to gather the card's expiry year for payment.
+  security-code-field:
+    title: "Security Code Field"
+    description: |
+      This field is to be used to gather the card's security code for payment.
+  shipping-options:
+    title: "Shipping Options"
+    description: |
+      This block is to be used to display the offered shipping options as radio checkboxes. Used during checkout.
+  country-field:
+    title: "Country Field"
+    description: |
+      This field is to be used to gather the user's country for shipping.
+  province-field:
+    title: "State/Province Field"
+    description: |
+      This field is to be used to gather the user's state/province for shipping.
+  search-field:
+    title: "Search Field"
+    description: |
+      This field is to be used search the website's catalogue via text entry.

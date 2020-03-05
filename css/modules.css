@@ -889,7 +889,8 @@ select {
 }
 
 [type="radio"]:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle cx='128' cy='128' r='70.4'/%3E%3C/svg%3E");
+  background-color: #000;
+  border: 1px solid #000;
 }
 
 [type="radio"]:focus + label::before,

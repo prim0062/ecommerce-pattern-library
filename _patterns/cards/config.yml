@@ -23,3 +23,11 @@ patterns:
     title: "Banner"
     description: |
       The banner is to be used at the top of major pages to present a call-to-action, or represent the current category page.
+  product-details-image:
+    title: "Product Details Image"
+    description: |
+      This is the card to be used on the product details page to display the image of the product for view.
+  checkout-summary-card:
+    title: "Checkout Summary Card"
+    description: |
+      This card is used to display the order summary during checkout. It occupies the right half of the checkout page by itself.

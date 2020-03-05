@@ -34,7 +34,7 @@
   max-width: 38.5em;
 }
 
-.category-card-1 {
+.category-card-small {
   border: 2px solid black;
   width: 22em;
   height: 22em;
@@ -43,7 +43,7 @@
   background-size: contain;
 }
 
-.category-card-2 {
+.category-card-large {
   border: 2px solid black;
   width: 46.5em;
   height: 22em;

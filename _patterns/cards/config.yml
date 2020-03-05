@@ -1,0 +1,25 @@
+title: "Cards"
+description: |
+  Cards are to be used to display products or link the user to product categories.
+
+patterns:
+  product-card:
+    title: "Product Card"
+    description: |
+      The product card pattern is only to be used on the product list page, and for recommended products listings.
+  featured-card:
+    title: "Featured Card"
+    description: |
+      The feature card is only to be used on the landing page featured section to advertised the current featured products.
+  category-card-small:
+    title: "Small Category Card"
+    description: |
+      The small category card is only to be used on the landing page category section, in conjuction with the large category card to create a modular layout.
+  category-card-large:
+    title: "Large Category Card"
+    description: |
+      The large category card is only to be used on the landing page category section, in conjuction with the small category card to create a modular layout.
+  banner-card:
+    title: "Banner"
+    description: |
+      The banner is to be used at the top of major pages to present a call-to-action, or represent the current category page.

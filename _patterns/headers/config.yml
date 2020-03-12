@@ -1,9 +1,13 @@
 title: "Headers"
 description: |
-  Headers that will provide an image relating to the page contents.
+  Header contains the website logo and often navigation links to navigate the site.
 
 patterns:
-  header-landing:
+  header-main:
     title: "Main Header"
     description: |
       This is the header thats to be used on almost all pages.
+  header-no-nav:
+    title: "No Navigation Header"
+    description: |
+      This is the header thats to be used only on checkout pages.

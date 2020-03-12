@@ -1,9 +1,14 @@
-li a {
+.logo-link {
   color: black;
   text-decoration: none;
 }
 
-li a:hover {
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
   background-color: var(--color-neutral-grey);
 }
 

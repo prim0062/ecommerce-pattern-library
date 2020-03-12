@@ -17,3 +17,12 @@ patternbot:
       The primary colours represent calm and relaxation, a stress free environment.
     colors.secondary: |
       The secondary colours represent a call to action
+  layouts:
+    default: |
+      The default layout should be used for almost every page, as it includes the website's primary header and footer.
+    products: |
+      The products layout should be used for the product listing pages.
+
+collections:
+  products:
+    outputs: true

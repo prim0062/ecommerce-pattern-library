@@ -1,9 +1,9 @@
-li .link {
+.link {
   color: var(--color-neutral-grey-dark);
   text-decoration: none;
 }
 
-li .link:hover {
+.link:hover {
   color: black;
   background-color: white;
 }

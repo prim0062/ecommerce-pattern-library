@@ -6,8 +6,3 @@ li a {
 li a:hover {
   background-color: var(--color-neutral-grey);
 }
-
-.nav-border {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}

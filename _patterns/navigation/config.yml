@@ -1,0 +1,9 @@
+title: "Navigation"
+description: |
+  Nagivation that will aid in getting around the website and finding what is needed.
+
+patterns:
+  nav-header:
+    title: "Header Navigation"
+    description: |
+      This is the navigation that is only to be used in the header.

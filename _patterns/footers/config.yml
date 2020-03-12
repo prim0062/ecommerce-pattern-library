@@ -1,0 +1,9 @@
+title: "Footers"
+description: |
+  Headers that will end the webpage with useful information.
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      This is the footer that's to be at the bottom of every page.

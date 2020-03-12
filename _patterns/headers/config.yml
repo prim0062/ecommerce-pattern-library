@@ -1,0 +1,9 @@
+title: "Headers"
+description: |
+  Headers that will provide an image relating to the page contents.
+
+patterns:
+  header-landing:
+    title: "Main Header"
+    description: |
+      This is the header thats to be used on almost all pages.

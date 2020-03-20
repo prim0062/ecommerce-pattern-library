@@ -1,9 +1,9 @@
 <div class="card">
-  <a href="#" class="link-card">
+  <a href="{{include.data.url}}" class="link-card">
     <div class="gutter-1-2">
-      <img class="img-flex" src="/images/hat.png" alt="">
-      <h2 class="title text-center mega not-bold push-1-2">Product Name</h2>
-      <p class="price text-center kilo push-1-2">$19.99 CAD</p>
+      <img class="img-flex" src="{{include.data.image}}" alt="">
+      <h2 class="title text-center mega not-bold push-1-2">{{include.data.name}}</h2>
+      <p class="price text-center kilo push-1-2">${{include.data.price}}</p>
     </div>
   </a>
 </div>

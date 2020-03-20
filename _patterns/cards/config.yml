@@ -7,6 +7,12 @@ patterns:
     title: "Product Card"
     description: |
       The product card pattern is only to be used on the product list page, and for recommended products listings.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   featured-card:
     title: "Featured Card"
     description: |
@@ -19,10 +25,6 @@ patterns:
     title: "Large Category Card"
     description: |
       The large category card is only to be used on the landing page category section, in conjuction with the small category card to create a modular layout.
-  banner-card:
-    title: "Banner"
-    description: |
-      The banner is to be used at the top of major pages to present a call-to-action, or represent the current category page.
   product-details-image:
     title: "Product Details Image"
     description: |

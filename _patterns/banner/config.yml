@@ -1,0 +1,16 @@
+title: "Banner"
+description: |
+  Banners are to be used at the top of major pages to present a call-to-action or represent the current category page.
+
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Traditional Snapbacks"
+      - name: text
+        type: string
+        example: "All shapes and sizes"
+    title: "Banner"
+    description: |
+      The banner is to be used at the top of major pages to present a call-to-action, or represent the current category page.

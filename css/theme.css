@@ -13,3 +13,12 @@
 html {
   font-family: var(--font-primary);
 }
+
+.product-name {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.product-price {
+  font-family: var(--font-primary);
+}

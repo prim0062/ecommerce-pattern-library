@@ -1,7 +1,58 @@
 ---
 layout: default
 ---
+<div class="wrapper">
+  <div class="grid push">
+    <div class="unit xs-1">
+      {% pattern forms/search-field %}
+    </div>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1-2">
+      {% pattern cards/product-details-image %}
+    </div>
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+    <div class="unit xs-1-2">
+      <h2 class="push-0 product-name">{{page.name}}</h2>
+      <p class="product-price">${{page.price}} CAD</p>
+
+      <h2 class="mega">Sizes</h2>
+
+      <h2 class="mega">Colours</h2>
+    </div>
+
+  </div>
+
+  <div class="grid">
+    <div class="unit xs-1-2">
+      <h2 class="mega">Product Description</h2>
+      <p>{{page.description}}</p>
+    </div>
+
+    <div class="unit xs-1-2">
+      <h2 class="mega">Product Details</h2>
+      <ul>
+        <li>ABC123</li>
+        <li>ABC123</li>
+        <li>ABC123</li>
+        <li>ABC123</li>
+        <li>ABC123</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid">
+    <h2 class="unit mega">Similar Products</h2>
+    <div class="unit xs-1">
+      <div class="grid gutter-1-4">
+        {% for product in site.products %}
+        <div class="unit xs-1 s-1 m-1-4">
+          {% pattern cards/product-card data=product %}
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+
+</div>

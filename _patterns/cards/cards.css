@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+.link-card:hover {
+  text-decoration: none;
+}
+
 .featured-text {
   color: var(--color-neutral-grey-dark);
   position: absolute;

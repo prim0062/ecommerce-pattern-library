@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg"><symbol id="search" viewBox="0 0 36 36"><defs><style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.22px}.cls-2{fill:#fff}</style></defs><circle cx="13.04" cy="13.73" r="12.17" class="cls-1"/><path d="M21.92 22.06l13.21 12.38" class="cls-2"/></symbol><symbol id="zoom" viewBox="0 0 36 36"><defs><style>.cls-1{fill:none}.cls-1,.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10}.cls-1,.cls-2{stroke-width:1.22px}.cls-2,.cls-3{fill:#fff}</style></defs><circle cx="13.04" cy="13.73" r="12.17" class="cls-1"/><path d="M21.92 22.06l13.21 12.38" class="cls-2"/><path d="M13.04 5.87V21.6m7.87-7.87H5.18" class="cls-3"/></symbol></svg>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="search" viewBox="0 0 36 36">
+    <style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.22px}.cls-2{fill:#fff}</style>
+    <g id="search">
+      <circle cx="13.04" cy="13.73" r="12.17" class="cls-1"/>
+      <path d="M21.92 22.06l13.21 12.38" class="cls-2"/>
+    </g>
+  </symbol>
+  <symbol id="zoom" viewBox="0 0 36 36">
+    <style>.cls-1{fill:none}.cls-1,.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10}.cls-1,.cls-2{stroke-width:1.22px}.cls-2,.cls-3{fill:#fff}</style>
+    <g id="zoom">
+      <circle cx="13.04" cy="13.73" r="12.17" class="cls-1"/>
+      <path d="M21.92 22.06l13.21 12.38" class="cls-2"/>
+      <path d="M13.04 5.87V21.6m7.87-7.87H5.18" class="cls-3"/>
+    </g>
+  </symbol>
+</svg>

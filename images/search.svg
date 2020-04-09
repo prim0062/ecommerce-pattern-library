@@ -1,0 +1,9 @@
+<svg id="search" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.22px}.cls-2{fill:#fff}
+    </style>
+  </defs>
+  <circle cx="13.04" cy="13.73" r="12.17" class="cls-1"/>
+  <path d="M21.92 22.06l13.21 12.38" class="cls-2"/>
+</svg>

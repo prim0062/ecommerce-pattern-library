@@ -22,3 +22,18 @@ html {
 .product-price {
   font-family: var(--font-primary);
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-primary-light);
+}
+
+mark {
+  color: #fff;
+  background-color: var(--color-primary-light);
+}

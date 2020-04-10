@@ -10,4 +10,16 @@ patterns:
   ghost:
     title: "Ghost"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      The ghost button is to draw attention for things such as a "call-to-action".
+  light:
+    title: "Light"
+    description: |
+      The light button is specifically for banners, where it will be placed in front of busy images.
+  option:
+    title: "Option"
+    description: |
+      The option button is for checkout and product options.
+  search:
+    title: "Search"
+    description: |
+      The search button is only to be paired with search bar and shouldn't be touched.

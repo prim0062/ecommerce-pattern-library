@@ -1,4 +1,5 @@
 .btn-basic {
+  text-decoration: none;
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   border-radius: 2px;
@@ -7,12 +8,14 @@
 }
 
 .btn-basic:hover {
+  text-decoration: none;
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
   border-radius: 8px;
 }
 
 .btn-ghost {
+  text-decoration: none;
   background-color: transparent;
   border-color: var(--color-primary);
   color: var(--color-primary);
@@ -21,6 +24,7 @@
 }
 
 .btn-ghost:hover {
+  text-decoration: none;
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
   color: white;
@@ -28,6 +32,7 @@
 }
 
 .btn-light {
+  text-decoration: none;
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: white;
@@ -36,12 +41,14 @@
 }
 
 .btn-light:hover {
+  text-decoration: none;
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
   border-radius: 8px;
 }
 
 .btn-option {
+  text-decoration: none;
   border: 1px solid var(--color-neutral-grey-dark);
   border-radius: 0;
   background-color: transparent;
@@ -49,8 +56,36 @@
 }
 
 .btn-option:hover {
+  text-decoration: none;
   border: 1px solid var(--color-neutral-grey-dark);
-
   background-color: var(--color-neutral-grey);
   color: black;
+}
+
+.btn-search {
+  text-decoration: none;
+  float: left;
+  padding: 0.5em 1em;
+  appearance: none;
+  height: 3em;
+  background-color: #fff;
+  border-left: 0;
+  border-top: 1px solid var(--color-neutral-grey-dark);
+  border-right: 1px solid var(--color-neutral-grey-dark);
+  border-bottom: 1px solid var(--color-neutral-grey-dark);
+  border-radius: 0;
+}
+
+.btn-search:hover {
+  text-decoration: none;
+  float: left;
+  padding: 0.5em 1em;
+  appearance: none;
+  height: 3em;
+  background-color: var(--color-neutral-grey-dark);
+  border-left: 0;
+  border-top: 1px solid var(--color-neutral-grey-dark);
+  border-right: 1px solid var(--color-neutral-grey-dark);
+  border-bottom: 1px solid var(--color-neutral-grey-dark);
+  border-radius: 0;
 }

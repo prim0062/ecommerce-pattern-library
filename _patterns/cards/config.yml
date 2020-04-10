@@ -33,14 +33,6 @@ patterns:
     title: "Large Category Card"
     description: |
       The large category card is only to be used on the landing page category section, in conjuction with the small category card to create a modular layout.
-  product-details-image:
-    fields:
-      - name: image
-        type: image
-        example: "/images/product-images/flashy-snap.jpg"
-    title: "Product Details Image"
-    description: |
-      This is the card to be used on the product details page to display the image of the product for view.
   checkout-summary-card:
     title: "Checkout Summary Card"
     description: |

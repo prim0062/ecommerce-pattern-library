@@ -43,8 +43,6 @@
   width: 13em;
   height: 13em;
   margin: .5em .5em;
-  background-image: url("../images/hat.png");
-  background-size: contain;
 }
 
 .category-card-large {
@@ -52,9 +50,6 @@
   width: 27em;
   height: 13em;
   margin: .5em .5em;
-  background-image: url("../images/hat.png");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .checkout-summary-card {

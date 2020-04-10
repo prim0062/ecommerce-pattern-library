@@ -2,12 +2,10 @@
 name: "Flashy Snapback"
 description: |
   Everyone will know when you enter the room with this high quality snapback with a flashy look.
-image: "/images/hat.png"
+image: "/images/product-images/flashy-snap.jpg"
 price: 29.99
 colors:
-  - "White"
-  - "Black"
-  - "Grey"
+  - "Rainbow"
 size:
 - "Small"
 - "Medium"

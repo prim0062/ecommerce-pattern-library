@@ -2,7 +2,7 @@
 name: "Leaf Snapback"
 description: |
   Show off your Canadian pride with this timeless classic.
-image: "/images/hat.png"
+image: "/images/product-images/leaf-snap.jpg"
 price: 19.99
 colors:
   - "Red"

@@ -12,6 +12,8 @@
 
 html {
   font-family: var(--font-primary);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .product-name {

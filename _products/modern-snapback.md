@@ -2,12 +2,11 @@
 name: "Modern Snapback"
 description: |
   A high quality snapback with a modern take.
-image: "/images/hat.png"
+image: "/images/product-images/modern-snap.jpg"
 price: 21.99
 colors:
-  - "White"
+  - "Tan"
   - "Black"
-  - "Grey"
 size:
 - "Small"
 - "Medium"

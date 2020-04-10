@@ -18,14 +18,26 @@ patterns:
     description: |
       The feature card is only to be used on the landing page featured section to advertised the current featured products.
   category-card-small:
+    fields:
+      - name: image
+        type: image
+        example: "/images/categories/cat-womans.jpg"
     title: "Small Category Card"
     description: |
       The small category card is only to be used on the landing page category section, in conjuction with the large category card to create a modular layout.
   category-card-large:
+    fields:
+      - name: image
+        type: image
+        example: "/images/categories/cat-traditional.jpg"
     title: "Large Category Card"
     description: |
       The large category card is only to be used on the landing page category section, in conjuction with the small category card to create a modular layout.
   product-details-image:
+    fields:
+      - name: image
+        type: image
+        example: "/images/product-images/flashy-snap.jpg"
     title: "Product Details Image"
     description: |
       This is the card to be used on the product details page to display the image of the product for view.

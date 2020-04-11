@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<div class="wrapper grid">
+  <div class="unit xs-1-2">
+
+    <div class="push-2">
+      <h2>Billing</h2>
+      <form class="" action="" method="post">
+        <div class="grid">
+          <div class="unit xs-1-2">
+            {% pattern forms/firstname-field %}
+          </div>
+          <div class="unit xs-1-2">
+            {% pattern forms/lastname-field %}
+          </div>
+        </div>
+
+        {% pattern forms/address-field %}
+        {% pattern forms/address-field-extra %}
+        {% pattern forms/city-field %}
+
+        <div class="grid">
+          <div class="unit xs-1-3">
+            {% pattern forms/country-field %}
+          </div>
+          <div class="unit xs-1-3 gutter-1-4">
+            {% pattern forms/province-field %}
+          </div>
+          <div class="unit xs-1-3">
+            {% pattern forms/postal-field %}
+          </div>
+        </div>
+        {% pattern forms/phone-field %}
+      </form>
+      {% pattern forms/email-field %}
+    </div>
+
+    <div class="">
+      <h2>Payment Information</h2>
+      {% pattern forms/card-holder-field %}
+      {% pattern forms/card-number-field %}
+
+      <div class="grid push-2">
+        <div class="unit xs-1-3">
+          {% pattern forms/card-exp-month-field %}
+        </div>
+        <div class="unit xs-1-3 gutter-1-4">
+          {% pattern forms/card-exp-year-field %}
+        </div>
+        <div class="unit xs-1-3">
+          {% pattern forms/security-code-field %}
+        </div>
+      </div>
+    </div>
+
+    <div class="push-2">
+      <h2>Shipping Options</h2>
+      {% pattern forms/shipping-options %}
+    </div>
+  </div>
+
+  <div class="unit xs-1-2 gutter pad-t-2">
+    {% pattern cards/checkout-summary-card %}
+  </div>
+</div>

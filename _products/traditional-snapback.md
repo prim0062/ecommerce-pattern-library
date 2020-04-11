@@ -1,5 +1,5 @@
 ---
-name: "Traditional Snapback"
+name: "Traditional"
 description: |
   A high quality snapback in the traditional style you love.
 image: "/images/product-images/traditional-snap.jpg"

@@ -1,5 +1,5 @@
 ---
-name: "Modern Snapback"
+name: "Modern"
 description: |
   A high quality snapback with a modern take.
 image: "/images/product-images/modern-snap.jpg"

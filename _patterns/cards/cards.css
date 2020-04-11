@@ -29,31 +29,37 @@
 }
 
 .featured-card {
-  border: 2px solid black;
+  border: 1px solid var(--color-neutral-grey-dark);
   max-width: 22em;
   margin: 1em .5em;
 }
-
 .featured-card:hover {
-  max-width: 22em;
+  border: 3px solid var(--color-primary);
 }
 
+
 .category-card-small {
-  border: 2px solid black;
   width: 13em;
   height: 13em;
   margin: .5em .5em;
 }
 
+.category-card-small:hover {
+  border: 3px solid var(--color-primary);
+}
+
 .category-card-large {
-  border: 2px solid black;
   width: 27em;
   height: 13em;
   margin: .5em .5em;
 }
 
+.category-card-large:hover {
+  border: 3px solid var(--color-primary);
+}
+
 .checkout-summary-card {
-  border: 2px solid black;
+  border: 1px solid var(--color-neutral-grey-dark);
   border-radius: 8px;
   min-width: 24em;
   max-width: 30em;

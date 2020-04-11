@@ -13,10 +13,6 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
-  featured-card:
-    title: "Featured Card"
-    description: |
-      The feature card is only to be used on the landing page featured section to advertised the current featured products.
   category-card-small:
     fields:
       - name: image
@@ -37,3 +33,13 @@ patterns:
     title: "Checkout Summary Card"
     description: |
       This card is used to display the order summary during checkout. It occupies the right half of the checkout page by itself.
+  featured-card:
+    fields:
+      - name: image
+        type: image
+        example: "/images/product-images/traditional-snap.jpg"
+      - name: url
+        type: url
+    title: "Featured Card"
+    description: |
+      The feature card is only to be used on the landing page featured section to advertised the current featured products.

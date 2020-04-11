@@ -1,12 +1,13 @@
 ## eCommerce Pattern Library
 
+Buckets is an eCommerce site designed to help customers find the hat they need as easily and rapidly as possible. This will be possible with a design driven by simplicity, paired with a cohesive and specific filtering system to find the hat that meets all the customers criteria.
 
 ---
 
 ## Useful Links
 
 UX: https://docs.google.com/document/d/1Jl4SChVyLc3Wl8KXbLrfL_opaCWeGpOv-jrYzokjcYI/edit
-Netfly Preview: https://condescending-benz-322a7a.netlify.com/pattern-library/#brand
+Netlify Preview: https://condescending-benz-322a7a.netlify.com/pattern-library/#brand
 
 ---
 

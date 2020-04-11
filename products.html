@@ -5,12 +5,90 @@ layout: default
     {% pattern forms/search-field %}
 </div>
 
-{% pattern banner/banner heading="Largest selection on the web" text="Find whats right for you" %}
+<div class="push-2">
+  {% pattern banner/banner-catalogue heading="Largest selection on the web" text="Find whats right for you" %}
+</div>
 
-<div class="grid gutter-1-4 wrapper">
-  {% for product in site.products %}
-  <div class="unit xs-1 s-1 m-1-4">
-    {% pattern cards/product-card data=product %}
+
+<div class="grid wrapper">
+  <div class="unit xs-1-4">
+    <div class="push">
+      <h3 class="push-0">SORT BY</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Men" %}
+        {% pattern forms/sort-checkbox name="Women" %}
+        {% pattern forms/sort-checkbox name="Children" %}
+        {% pattern forms/sort-checkbox name="New Arrivals" %}
+        {% pattern forms/sort-checkbox name="Best Selling" %}
+      </div>
+    </div>
+
+    <div class="push">
+      <h3 class="push-0">CATEGORY</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Modern" %}
+        {% pattern forms/sort-checkbox name="Traditional" %}
+        {% pattern forms/sort-checkbox name="Limited Edition" %}
+        {% pattern forms/sort-checkbox name="Colourful" %}
+        {% pattern forms/sort-checkbox name="Simple" %}
+      </div>
+    </div>
+
+    <div class="push">
+      <h3 class="push-0">SIZE</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Small" %}
+        {% pattern forms/sort-checkbox name="Medium" %}
+        {% pattern forms/sort-checkbox name="Large" %}
+        {% pattern forms/sort-checkbox name="XL" %}
+        {% pattern forms/sort-checkbox name="XXL" %}
+        {% pattern forms/sort-checkbox name="ONE SIZE" %}
+      </div>
+    </div>
+
+    <div class="push">
+      <h3 class="push-0">BRAND</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Addidas" %}
+        {% pattern forms/sort-checkbox name="Hurley" %}
+        {% pattern forms/sort-checkbox name="Brixton" %}
+        {% pattern forms/sort-checkbox name="Oakley" %}
+        {% pattern forms/sort-checkbox name="Blackskies" %}
+      </div>
+    </div>
+
+    <div class="push">
+      <h3 class="push-0">COLOUR</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Black" %}
+        {% pattern forms/sort-checkbox name="White" %}
+        {% pattern forms/sort-checkbox name="Grey" %}
+        {% pattern forms/sort-checkbox name="Blue" %}
+        {% pattern forms/sort-checkbox name="Red" %}
+        {% pattern forms/sort-checkbox name="Yellow" %}
+        {% pattern forms/sort-checkbox name="Green" %}
+        {% pattern forms/sort-checkbox name="Orange" %}
+        {% pattern forms/sort-checkbox name="Brown" %}
+        {% pattern forms/sort-checkbox name="Rainbow" %}
+      </div>
+    </div>
+
+    <div class="push">
+      <h3 class="push-0">PRICE</h3>
+      <div class="pad-l-1-2">
+        {% pattern forms/sort-checkbox name="Under $10" %}
+        {% pattern forms/sort-checkbox name="$10 – $19" %}
+        {% pattern forms/sort-checkbox name="$20 – $29" %}
+        {% pattern forms/sort-checkbox name="$30+" %}
+      </div>
+    </div>
   </div>
-  {% endfor %}
+
+  <div class="unit xs-3-4 grid gutter-1-4">
+    {% for product in site.products %}
+    <div class="unit xs-1 s-1 m-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endfor %}
+  </div>
 </div>

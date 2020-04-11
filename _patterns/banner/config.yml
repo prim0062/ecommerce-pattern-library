@@ -3,7 +3,7 @@ description: |
   Banners are to be used at the top of major pages to present a call-to-action or represent the current category page.
 
 patterns:
-  banner:
+  banner-landing:
     fields:
       - name: heading
         type: string
@@ -13,4 +13,15 @@ patterns:
         example: "All shapes and sizes"
     title: "Banner"
     description: |
-      The banner is to be used at the top of major pages to present a call-to-action, or represent the current category page.
+      The banner is to be used at the top of the landing to present a the website and provide a call-to-action.
+  banner-catalogue:
+    fields:
+      - name: heading
+        type: string
+        example: "Traditional Snapbacks"
+      - name: text
+        type: string
+        example: "All shapes and sizes"
+    title: "Banner"
+    description: |
+      The banner is to be used at the top of the catalogue page.

@@ -8,6 +8,7 @@
 }
 
 .btn-basic:hover {
+  font-weight: bold;
   text-decoration: none;
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);

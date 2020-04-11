@@ -402,6 +402,26 @@ select {
   padding-bottom: .1625rem;
 }
 
+.pad-right,
+.pad-r {
+  padding-right: 1.3rem;
+}
+
+.pad-left,
+.pad-l {
+  padding-left: 1.3rem;
+}
+
+.pad-right-1-2,
+.pad-r-1-2 {
+  padding-right: .65rem;
+}
+
+.pad-left-1-2,
+.pad-l-1-2 {
+  padding-left: .65rem;
+}
+
 .island {
   padding: 1.3rem;
 }

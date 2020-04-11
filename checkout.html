@@ -8,7 +8,7 @@ layout: default
       <h2>Billing</h2>
       <form class="" action="" method="post">
         <div class="grid">
-          <div class="unit xs-1-2">
+          <div class="unit xs-1-2 pad-r-1-2">
             {% pattern forms/firstname-field %}
           </div>
           <div class="unit xs-1-2">
@@ -21,10 +21,10 @@ layout: default
         {% pattern forms/city-field %}
 
         <div class="grid">
-          <div class="unit xs-1-3">
+          <div class="unit xs-1-3 pad-r-1-2">
             {% pattern forms/country-field %}
           </div>
-          <div class="unit xs-1-3 gutter-1-4">
+          <div class="unit xs-1-3 pad-r-1-2">
             {% pattern forms/province-field %}
           </div>
           <div class="unit xs-1-3">
@@ -42,10 +42,10 @@ layout: default
       {% pattern forms/card-number-field %}
 
       <div class="grid push-2">
-        <div class="unit xs-1-3">
+        <div class="unit xs-1-3 pad-r-1-2">
           {% pattern forms/card-exp-month-field %}
         </div>
-        <div class="unit xs-1-3 gutter-1-4">
+        <div class="unit xs-1-3 pad-r-1-2">
           {% pattern forms/card-exp-year-field %}
         </div>
         <div class="unit xs-1-3">
@@ -57,6 +57,10 @@ layout: default
     <div class="push-2">
       <h2>Shipping Options</h2>
       {% pattern forms/shipping-options %}
+    </div>
+
+    <div class="push right">
+      {% pattern buttons/basic name="Place Order" %}
     </div>
   </div>
 

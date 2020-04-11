@@ -1,12 +1,31 @@
 .banner {
   width: 100%;
   height: 22em;
-  background-image: url("../images/banners/banner-landing.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.banner-landing {
+  background: linear-gradient(rgba(31, 103, 119, 0.45), rgba(31, 103, 119, 0.45)), url("../images/banners/banner-landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-catalogue {
+  background: linear-gradient(rgba(31, 103, 119, 0.45), rgba(31, 103, 119, 0.45)), url("../images/banners/banner-catalogue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  filter: none;
+  padding-top: 5em;
+}
+
 .banner-head, .banner-text {
   color: #fff;
+  filter: none;
 }

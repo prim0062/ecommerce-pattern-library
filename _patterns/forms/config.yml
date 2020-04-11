@@ -71,3 +71,11 @@ patterns:
     title: "Search Field"
     description: |
       This field is to be used search the website's catalogue via text entry.
+  sort-checkbox:
+    fields:
+      - name: name
+        type: string
+        example: "Men's Hats"
+    title: "Sort Checkbox"
+    description: |
+      This field is to be used search the website's catalogue via text entry.

@@ -89,7 +89,22 @@ input[type="radio"] + label::before {
   background-color: #fff;
   background-size: contain;
   border: 1px solid;
-  var(--color-neutral-grey-dark);
+  border-radius: 0;
+  line-height: inherit;
+}
+
+input[type="checkbox"] + label::before {
+  content: " ";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin-right: .3em;
+  position: relative;
+  vertical-align: middle;
+  top: -.1em;
+  background-color: #fff;
+  background-size: contain;
+  border: 1px solid;
   border-radius: 0;
   line-height: inherit;
 }

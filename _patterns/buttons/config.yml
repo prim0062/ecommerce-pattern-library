@@ -4,6 +4,12 @@ description: |
 
 patterns:
   basic:
+    fields:
+      - name: name
+        type: string
+        example: "Click here"
+      - name: url
+        type: url
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
@@ -12,6 +18,12 @@ patterns:
     description: |
       The ghost button is to draw attention for things such as a "call-to-action".
   light:
+    fields:
+      - name: name
+        type: string
+        example: "Click here"
+      - name: url
+        type: url
     title: "Light"
     description: |
       The light button is specifically for banners, where it will be placed in front of busy images.

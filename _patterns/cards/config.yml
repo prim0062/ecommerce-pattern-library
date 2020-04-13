@@ -13,6 +13,11 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+      - name: data
+        type: object
+        data:
+          source: "site.similar-products[0]"
+          type: Product
   category-card-small:
     fields:
       - name: image

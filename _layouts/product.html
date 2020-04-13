@@ -74,7 +74,7 @@ layout: default
     <h2 class="unit mega">Similar Products</h2>
     <div class="unit xs-1">
       <div class="grid gutter-1-4">
-        {% for product in site.products %}
+        {% for product in site.similar-products %}
         <div class="unit xs-1 s-1 m-1-4">
           {% pattern cards/product-card data=product %}
         </div>

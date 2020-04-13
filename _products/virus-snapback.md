@@ -4,10 +4,10 @@ description: |
   Practice social distancing in style with a hopefully time-dependent classic.
 image: "/images/product-images/virus-snap.jpg"
 price: 24.99
-colors:
-  - "Green"
-size:
-- "Small"
-- "Medium"
-- "Large"
+details1: High Crown
+details2: Fitted
+details3: Flexible
+details4: Officially Licensed
+details5: Imported
+details6: Not waterproof
 ---

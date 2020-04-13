@@ -3,40 +3,69 @@ layout: default
 ---
 <div class="wrapper">
   <div class="grid push">
-    <div class="unit xs-1">
+    <div class="unit xs-1 push">
       {% pattern forms/search-field %}
     </div>
+    <div class="unit xs-1">
+      {% pattern navigation/breadcrumbs name="Home |" url="/"%}
+      {% pattern navigation/breadcrumbs name=" Catalogue |" url="/products/" %}
+      {% pattern navigation/breadcrumbs name=" Product Selection" %}
+    </div>
   </div>
+
   <div class="grid">
     <div class="unit xs-1-2">
-      <img class="gutter-2 img-flex" src="{{page.image}}" alt="">
+      <img class="product-image img-flex" src="{{page.image}}" alt="">
     </div>
 
-    <div class="unit xs-1-2">
+    <div class="unit xs-1-2 pad-l">
       <h2 class="push-0 product-name">{{page.name}}</h2>
       <p class="product-price">${{page.price}} CAD</p>
+      <form class="" action="" method="">
+        <h2 class="mega push-1-2">Sizes</h2>
+        <div class="push">
+          {% pattern buttons/option name="S" %}
+          {% pattern buttons/option name="M" %}
+          {% pattern buttons/option name="L" %}
+          {% pattern buttons/option name="XL" %}
+          {% pattern buttons/option name="XXL" %}
+          {% pattern buttons/option name="OSF" %}
+        </div>
 
-      <h2 class="mega">Sizes</h2>
-
-      <h2 class="mega">Colours</h2>
+        <h2 class="mega push-1-2">Colours</h2>
+        <div class="push-2">
+          {% pattern buttons/colour-option colour="black" %}
+          {% pattern buttons/colour-option colour="white" %}
+          {% pattern buttons/colour-option colour="grey" %}
+          {% pattern buttons/colour-option colour="red" %}
+          {% pattern buttons/colour-option colour="blue" %}
+          {% pattern buttons/colour-option colour="orange" %}
+          {% pattern buttons/colour-option colour="green" %}
+          {% pattern buttons/colour-option colour="brown" %}
+        </div>
+        <div>
+          {% pattern buttons/light name="Add to Cart" %}
+        </div>
+      </form>
     </div>
 
   </div>
 
   <div class="grid">
-    <div class="unit xs-1-2">
+    <div class="unit xs-1-2 pad-r">
       <h2 class="mega">Product Description</h2>
       <p>{{page.description}}</p>
     </div>
 
-    <div class="unit xs-1-2">
+    <div class="unit xs-1-2 pad-l">
       <h2 class="mega">Product Details</h2>
       <ul>
-        <li>ABC123</li>
-        <li>ABC123</li>
-        <li>ABC123</li>
-        <li>ABC123</li>
-        <li>ABC123</li>
+        <li>{{page.details1}}</li>
+        <li>{{page.details2}}</li>
+        <li>{{page.details3}}</li>
+        <li>{{page.details4}}</li>
+        <li>{{page.details5}}</li>
+        <li>{{page.details6}}</li>
       </ul>
     </div>
   </div>

@@ -7,3 +7,23 @@ patterns:
     title: "Header Navigation"
     description: |
       This is the navigation that is only to be used in the header.
+  nav-pages:
+    fields:
+      - name: name
+        type: string
+        example: "Next Page >"
+      - name: url
+        type: url
+    title: "Page Navigation"
+    description: |
+      This is the navigation that is to be used to change pages in the product catalogue.
+  breadcrumbs:
+    fields:
+      - name: name
+        type: string
+        example: "Catalogue"
+      - name: url
+        type: url
+    title: "Breadcrumbs"
+    description: |
+      This is the navigation that is to be used at the top of pages to easily backtrack navigation.

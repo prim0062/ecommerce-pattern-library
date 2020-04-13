@@ -4,10 +4,10 @@ description: |
   Flat colour, straight class.
 image: "/images/product-images/grey-snap.jpg"
 price: 22.99
-colors:
-  - "Grey"
-size:
-- "Small"
-- "Medium"
-- "Large"
+details1: High Crown
+details2: Fitted
+details3: Flexible
+details4: Officially Licensed
+details5: Imported
+details6: Not waterproof
 ---

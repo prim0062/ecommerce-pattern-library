@@ -25,6 +25,10 @@ html {
   font-family: var(--font-primary);
 }
 
+.product-image {
+  max-width: 24em;
+}
+
 a {
   text-decoration: none;
   color: var(--color-primary-light);
@@ -38,4 +42,30 @@ a:hover {
 mark {
   color: #fff;
   background-color: var(--color-primary-light);
+}
+
+
+
+@media only screen and (min-width: 320px) {
+
+  .cat-2 {
+    display: none;
+  }
+
+  .cat-7 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .cat-2 {
+    display: inline-block;
+  }
+
+  .cat-7 {
+    display: inline-block;
+  }
+
 }

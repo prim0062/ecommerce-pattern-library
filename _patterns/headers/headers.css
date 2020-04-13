@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+.logo {
+  width: 10%;
+  height: 10%;
+}
+
 .nav-link {
   color: black;
   text-decoration: none;

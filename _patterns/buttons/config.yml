@@ -27,11 +27,23 @@ patterns:
     title: "Light"
     description: |
       The light button is specifically for banners, where it will be placed in front of busy images.
-  option:
-    title: "Option"
-    description: |
-      The option button is for checkout and product options.
   search:
     title: "Search"
     description: |
       The search button is only to be paired with search bar and shouldn't be touched.
+  option:
+    fields:
+      - name: name
+        type: string
+        example: "Select"
+    title: "Option"
+    description: |
+      The option button is for checkout and product options.
+  colour-option:
+    fields:
+      - name: colour
+        type: string
+        example: "orange"
+    title: "Colour Option"
+    description: |
+      The option button is for checkout and product options.

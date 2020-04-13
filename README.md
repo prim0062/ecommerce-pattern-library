@@ -4,10 +4,10 @@ Buckets is an eCommerce site designed to help customers find the hat they need a
 
 ---
 
-## Useful Links
+## Development Links
 
-UX: https://docs.google.com/document/d/1Jl4SChVyLc3Wl8KXbLrfL_opaCWeGpOv-jrYzokjcYI/edit
-Netlify Preview: https://condescending-benz-322a7a.netlify.com/pattern-library/#brand
+UX and Concepts: https://docs.google.com/document/d/1Jl4SChVyLc3Wl8KXbLrfL_opaCWeGpOv-jrYzokjcYI/edit
+Netlify Live Preview: https://condescending-benz-322a7a.netlify.com/pattern-library/#brand
 
 ---
 
@@ -30,3 +30,25 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
+
+---
+
+## Copywrite Notice
+
+eCommerce Pattern Library
+Copyright (C) 2020  Quincy Prime
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---
